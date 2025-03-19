@@ -1,0 +1,47 @@
+#registration-form, #appointment-form {
+    -fx-background-color: #f5f5f5;
+    -fx-padding: 20px;
+    -fx-border-color: #e0e0e0;
+    -fx-border-radius: 8px;
+    -fx-border-width: 1;
+    -fx-background-radius: 8px;
+}
+
+#header-label {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+}
+
+#register-button{
+    -fx-background-color: #00796b;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5;
+    -fx-padding: 10px;
+}
+#book-button {
+    -fx-background-color: #000000;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5;
+    -fx-padding: 10px;
+}
+
+#register-button:hover{ 
+    -fx-background-color: #004d40;
+}
+
+#book-button:hover {
+	-fx-background-color: #003153;
+
+}
+
+.combo-box, .date-picker {
+    -fx-background-color: white;
+    -fx-border-color: lightgrey;
+    -fx-border-radius: 0;
+    -fx-background-radius: 0;
+    -fx-padding: 0;
+}
+
